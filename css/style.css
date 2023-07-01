@@ -1,5 +1,19 @@
 /* FONTS */
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* COLORS 
 Double Split Complementary 
 
@@ -11,3 +25,71 @@ Purple 725EAB
 
 */
 
+
+
+/* backgrounds */
+
+.hero1 {
+  background-image: url(../img/00.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero2 {
+  background-image: url(../img/01.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero3 {
+  background-image: url(../img/02.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero4 {
+  background-image: url(../img/03.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero5 {
+    background-image: url(../img/04.jpg);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
