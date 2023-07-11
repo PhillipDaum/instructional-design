@@ -1,36 +1,7 @@
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Lobster&family=Open+Sans:wght@300&display=swap');
-
-h1 {
-  font-family: 'Lobster', cursive;
-}
-
-h2 {
-  font-family: 'Audiowide', cursive;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* COLORS 
-Double Split Complementary 
-
-Green 71E393
-Green-yellow F0E35B
-Blue 5DBBE3
-Light Red DB7E7D 
-Purple 725EAB
-
-*/
-
-
-
 /* backgrounds */
 
 .hero1 {
-  background-image: url(../img/00.jpg);
+  background-image: url(../img/03.jpg);
 
   /* Full height */
   height: 100%;
@@ -43,7 +14,7 @@ Purple 725EAB
 }
 
 .hero2 {
-  background-image: url(../img/01.jpg);
+  background-image: url(../img/00.jpg);
 
   /* Full height */
   height: 100%;
@@ -69,7 +40,7 @@ Purple 725EAB
 }
 
 .hero4 {
-  background-image: url(../img/03.jpg);
+  background-image: url(../img/01.jpg);
 
   /* Full height */
   height: 100%;
