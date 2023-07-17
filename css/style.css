@@ -1,5 +1,9 @@
-/* backgrounds */
+/* image width */
+img {
+  min-width: 90px;
+}
 
+/* backgrounds */
 .hero1 {
   background-image: url(../img/03.jpg);
 
