@@ -12,9 +12,6 @@ x.className = "text-dark";
 }
 
 
-
-
-
 function viewCourse() {
     let tryIt = document.createElement('div')  
     tryIt.innerHTML = "Click to view course!";

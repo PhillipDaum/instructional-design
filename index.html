@@ -31,6 +31,16 @@
         <div class="col d-flex justify-content-center">
           <a class="h1 text-light nav-link active" href="#tile1">Phillip Daum</a>
         </div>
+        <!-- extra menu only on size md and up --> 
+        <div class="d-sm-none d-md-block">
+          <div class="col d-flex justify-content-center align-items-center">
+            <a class="h5 text-light nav-link" href="#tile2">Creation</a>
+            <i class="fa-solid text-light fa-2xs mb-1 fa-circle"></i>
+            <a class="h5 text-light nav-link" href="#tile3">Instruction</a>
+            <i class="fa-solid text-light fa-2xs mb-1 fa-circle"></i>
+            <a class="h5 text-light nav-link" href="#tile4">Innovation</a>
+          </div>
+        </div>
         <div class="col d-flex justify-content-center">
           <a target="__blank" class="" href="https://www.linkedin.com/in/daumphil/">
             <i class="fa-brands fs-1 me-2 text-light fa-linkedin"></i>
@@ -88,22 +98,31 @@
           <ul class="list-group bg-light" style="--bs-bg-opacity: .8;">
             <li class="list-group-item fs-4 bg-transparent fw-bold d-flex justify-content-center">Instructional Design</h1>
             <li class="list-group-item font-monospace fs-5 bg-transparent">
-              <a target="__blank" class="text-dark" onmouseover="hoverOut(this)" onmouseout="unHover(this)" href="https://community.articulate.com/users/PhilDaum">
+              <a id="articulate360" target="_blank" href="https://community.articulate.com/users/PhilDaum" class="text-dark" onclick="" onmouseover="hoverOut(this)" onmouseout="unHover(this)">
                 Articulate 360<i class="fa-solid ms-3 fa-arrow-up-right-from-square"></i>
               </a>
-              </li>
-            <li class="list-group-item font-monospace fs-5 bg-transparent">Video Production</li>
-            <li class="list-group-item font-monospace fs-5 bg-transparent">Learning Managment Systems</li>
-            <li class="list-group-item font-monospace fs-5 bg-transparent">Responsive Web Development</li>
+            </li>
+            <li class="list-group-item font-monospace fs-5 bg-transparent">
+              <a id="video" target="_blank" class="text-dark" onclick="" onmouseover="hoverOut(this)" onmouseout="unHover(this)" href="https://www.youtube.com/watch?v=uuazgStmVt0">
+                Video Production<i class="fa-solid ms-3 fa-arrow-up-right-from-square"></i>
+              </a>
+            </li>
+            <li class="list-group-item font-monospace fs-5 bg-transparent">
+                Learning Managment Systems
+            </li>
+            <li class="list-group-item font-monospace fs-5 bg-transparent">
+              <a id="bootstrap" class="text-dark" target="_blank" onclick="" onmouseover="hoverOut(this)" onmouseout="unHover(this)" href="https://phillipdaum.github.io/chat-rpg/">
+                Responsive Web Design<i class="fa-solid ms-3 fa-arrow-up-right-from-square"></i>
+              </a>
+            </li>
           </ul>
         </div>
 
         <div class="col">
-            <a target="__blank" onmouseover="viewCourse()" onmouseout="noView()" class="me-4" href="https://phillipdaum.github.io/how-to-make-waffles/">
+          <!-- JS changes this --> 
+            <a id="articulate360" target="__blank" onmouseover="viewCourse()" onmouseout="noView()" class="me-4" href="https://phillipdaum.github.io/how-to-make-waffles/">
               <img src="./img/waffles.svg" class="img-fluid" alt="how to make waffles course on a phone and monitor">
             </a>
-             <!-- JS changes this --> 
-            <div id="trythings"></div>
         </div>
 
       </div>
@@ -135,7 +154,7 @@
   </div>
 </div>
 
- <!-- about --> 
+ <!-- Innovative Projects --> 
  <div id="tile4" class="hero4">
   <div class="container-fluid bg-light justify-content-center d-flex" style="--bs-bg-opacity: .8;">
 
@@ -164,6 +183,18 @@
               </a>
             </div>
           </li>
+          <li class="list-group-item font-monospace bg-transparent"><strong>iplanitit:</strong>
+            A social web app that makes sustainable food gardening and planning fun, easy, and accessible. It visually generates potential garden bed plots and plants using user location data  
+            <div class="row ms-3">
+              <a target="__blank" class="text-dark" onmouseover="hoverOut(this)" onmouseout="unHover(this)" href="https://github.com/PhillipDaum/iplantit">
+                Repository<i class="fa-solid ms-3 fa-arrow-up-right-from-square"></i>
+              </a>
+              <a target="_blank" class="text-dark" onmouseover="hoverOut(this)" onmouseout="unHover(this)" href="https://www.youtube.com/watch?v=rrDzHoShVhY" >
+                Demo Video<i class="fa-solid ms-3 fa-arrow-up-right-from-square"></i>
+              </a>
+              <div class="container-fluid" id="iplantit"></div>
+            </div>
+          </li>
         </ul>
       </div>
 
@@ -178,6 +209,9 @@
         <div class="container-fluid">
           <a target="__blank" href="https://www.linkedin.com/in/daumphil/">
             <i class="fa-brands fs-1 p-2 text-light fa-linkedin"></i>
+          </a>
+          <a target="__blank" class="" href="https://github.com/PhillipDaum">
+            <i class="fa-brands fs-1 p-2 text-light fa-github-square"></i>
           </a>
         </div>
         <p class="text-light font-monospace">copyright 2023 Phillip Daum</p>
